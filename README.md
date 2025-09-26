@@ -1,50 +1,47 @@
-# Welcome to your Expo app 👋
+# RESTIQ
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## About the Project
 
-## Get started
+RESTIQ is an AI-powered sleep tracking application designed to provide users with a comprehensive and personalized understanding of their sleep health. By integrating with fitness trackers and a user's phone, RESTIQ captures key health metrics and uses a custom AI model to analyze the data, offering insights that rival professional, medical-grade sleep analysis. Our goal is to empower users with accurate, actionable information about their sleep, promoting better health and well-being.
 
-1. Install dependencies
+## Core Features
 
-   ```bash
-   npm install
-   ```
+Harnessing the power of our custom AI model, RESTIQ intelligently analyzes your sleep data to detect and inform you about:
 
-2. Start the app
+- **Increased Snoring Intensity**: Monitoring for changes in snoring patterns and volume.
+- **Sleep Apnea-like Pauses**: Identifying potential breathing irregularities during sleep.
+- **Restlessness**: Tracking tossing and turning to measure sleep quality.
+- **Circadian Rhythm Shifts**: Understanding and visualizing changes in your natural sleep-wake cycle.
+- **Recovery Monitoring**: Using metrics like Heart Rate Variability (HRV) to gauge recovery from stress, illness, or fatigue.
+- **Difficulty Breathing**: Providing alerts for signs of impaired respiration.
+- **Medical Referrals**: If the data indicates a significant health concern, the app will provide information on hospitals and specialized centers for professional diagnosis.
 
-   ```bash
-   npx expo start
-   ```
+## Tech Stack
 
-In the output, you'll find options to open the app in a
+The RESTIQ application is built using a robust and modern technology stack to ensure performance, security, and scalability.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Frontend & Mobile
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- **React Native**: For building cross-platform mobile applications.
+- **HealthKit API (iOS)**: To securely access and utilize health and fitness data from a user's devices.
 
-## Get a fresh project
+### Backend & AI
 
-When you're ready, run:
+- **Python**: The core language for developing the custom AI sleep analysis model.
+- **HTML, CSS**: For any web-based components or future web application interfaces.
+- **S3 Bucket**: For scalable and secure storage of user data and analysis results.
 
-```bash
-npm run reset-project
-```
+### APIs & Services
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- **Sleep Data API**: An API to compare user data with normal sleep patterns.
+- **Emergency Services API**: To make calls to emergency services if critical health events are detected.
+- **Loved Ones Messaging API**: For sending automated messages to emergency contacts.
 
-## Learn more
+### Developers
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- **Taufeeq Ali** (Project Lead)
+- **Dillon Ngyuen** (Frontend Developer)
+- **Garrett Smith** (Frontend Developer)
+- **Pranav Cheedalla** (Backend Developer)
+- **Sreyas Chakka** (Backend Developer)
+- **Saharsh Buddhe** (Frontend Developer)
